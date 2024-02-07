@@ -15,7 +15,7 @@
     })
 </script>
 
-<div id="app">
+<div class="position-fixed h-100 w-100">
     {#if !isLoading}
         {#if $password}
             <KeyStore />
@@ -24,11 +24,3 @@
         {/if}
     {/if}
 </div>
-
-<style>
-    #app {
-        width: 100vw;
-        height: 100vh;
-        position: fixed;
-    }
-</style>
