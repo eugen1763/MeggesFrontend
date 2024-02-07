@@ -34,7 +34,7 @@
 </script>
 
 <div class="d-flex flex-column gap-3 mx-3 h-100">
-    <span class="text-center mt-4 h3 fw-light">Verfügbar: {availableCodes?.length}</span>
+    <span class="text-center mt-4 h3 fw-light">Verfügbar: {availableCodes?.length || 0}</span>
     <form class="d-flex flex-column gap-3" on:submit={addCode}>
         <input type="text" class="form-control" placeholder="Neuer Code" bind:value={newCode}>
         <input type="submit" class="btn btn-outline-success" value="Hinzufügen">

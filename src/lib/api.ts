@@ -2,7 +2,7 @@ import {get} from "svelte/store";
 import {Auth} from "$lib/login";
 
 export module Api {
-    const apiUrl = "http://127.0.0.1:8099/"
+    const apiUrl = "https://api.keinemachtdendrogen.de/"
 
     export async function getCodes(): Promise<string[]> {
         const response = await call('getCodes', {});
