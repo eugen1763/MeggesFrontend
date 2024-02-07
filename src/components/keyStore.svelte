@@ -48,5 +48,5 @@
         <button class="btn btn-outline-primary" on:click={codeUsed}>Benutzt</button>
     {/if}
     <div class="flex-fill"></div>
-    <button class="btn btn-outline-danger mb-3" on:click={doLogout}>Logout</button>
+    <button class="btn btn-outline-danger mb-5" on:click={doLogout}>Logout</button>
 </div>
